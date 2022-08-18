@@ -1,0 +1,5 @@
+D:\Workplaces\ContainersResearch\MyApp\out\DotNet.Docker.exe
+D:\Workplaces\ContainersResearch\MyApp\out\DotNet.Docker.dll
+D:\Workplaces\ContainersResearch\MyApp\out\DotNet.Docker.deps.json
+D:\Workplaces\ContainersResearch\MyApp\out\DotNet.Docker.runtimeconfig.json
+D:\Workplaces\ContainersResearch\MyApp\out\DotNet.Docker.pdb

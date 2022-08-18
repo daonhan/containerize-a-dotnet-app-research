@@ -1,0 +1,5 @@
+D:\Workplaces\ContainersResearch\MyApp2\bin\Release\net6.0\publish\MyDotNet.Docker.exe
+D:\Workplaces\ContainersResearch\MyApp2\bin\Release\net6.0\publish\MyDotNet.Docker.dll
+D:\Workplaces\ContainersResearch\MyApp2\bin\Release\net6.0\publish\MyDotNet.Docker.deps.json
+D:\Workplaces\ContainersResearch\MyApp2\bin\Release\net6.0\publish\MyDotNet.Docker.runtimeconfig.json
+D:\Workplaces\ContainersResearch\MyApp2\bin\Release\net6.0\publish\MyDotNet.Docker.pdb

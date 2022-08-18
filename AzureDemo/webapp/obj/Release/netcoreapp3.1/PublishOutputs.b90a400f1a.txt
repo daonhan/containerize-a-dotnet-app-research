@@ -1,0 +1,7 @@
+D:\Workplaces\ContainersResearch\AzureDemo\webapp\bin\Release\netcoreapp3.1\publish\webapp.exe
+D:\Workplaces\ContainersResearch\AzureDemo\webapp\bin\Release\netcoreapp3.1\publish\appsettings.Development.json
+D:\Workplaces\ContainersResearch\AzureDemo\webapp\bin\Release\netcoreapp3.1\publish\appsettings.json
+D:\Workplaces\ContainersResearch\AzureDemo\webapp\bin\Release\netcoreapp3.1\publish\webapp.dll
+D:\Workplaces\ContainersResearch\AzureDemo\webapp\bin\Release\netcoreapp3.1\publish\webapp.deps.json
+D:\Workplaces\ContainersResearch\AzureDemo\webapp\bin\Release\netcoreapp3.1\publish\webapp.runtimeconfig.json
+D:\Workplaces\ContainersResearch\AzureDemo\webapp\bin\Release\netcoreapp3.1\publish\webapp.pdb

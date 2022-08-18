@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bDI9hfuzwPiCsIlFG2YvDlUatgPgorBxb3guFRAZfss=",
+  "Source": "UA.WebApi",
+  "BasePath": "_content/UA.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

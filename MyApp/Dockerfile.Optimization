@@ -1,0 +1,17 @@
+FROM mcr.microsoft.com/dotnet/sdk:6.0-alpine as build-env
+WORKDIR /app
+COPY *.csproj ./
+RUN dotnet restore --runtime alpine-x64
+COPY . .
+# add --no-restore flag to dotnet publish
+RUN dotnet publish -c Release -o /app/out \
+  --no-restore \
+  --runtime alpine-x64 \
+  --self-contained true \
+  /p:PublishTrimmed=true \
+  /p:PublishSingleFile=true
+
+FROM mcr.microsoft.com/dotnet/runtime-deps:6.0-alpine
+WORKDIR /app
+COPY --from=build-env /app/out .
+ENTRYPOINT ["./DotNet.Docker"]

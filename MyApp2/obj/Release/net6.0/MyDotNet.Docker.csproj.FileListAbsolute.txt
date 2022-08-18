@@ -1,0 +1,15 @@
+D:\Workplaces\ContainersResearch\MyApp2\bin\Release\net6.0\MyDotNet.Docker.exe
+D:\Workplaces\ContainersResearch\MyApp2\bin\Release\net6.0\MyDotNet.Docker.deps.json
+D:\Workplaces\ContainersResearch\MyApp2\bin\Release\net6.0\MyDotNet.Docker.runtimeconfig.json
+D:\Workplaces\ContainersResearch\MyApp2\bin\Release\net6.0\MyDotNet.Docker.dll
+D:\Workplaces\ContainersResearch\MyApp2\bin\Release\net6.0\MyDotNet.Docker.pdb
+D:\Workplaces\ContainersResearch\MyApp2\obj\Release\net6.0\MyDotNet.Docker.csproj.AssemblyReference.cache
+D:\Workplaces\ContainersResearch\MyApp2\obj\Release\net6.0\MyDotNet.Docker.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workplaces\ContainersResearch\MyApp2\obj\Release\net6.0\MyDotNet.Docker.AssemblyInfoInputs.cache
+D:\Workplaces\ContainersResearch\MyApp2\obj\Release\net6.0\MyDotNet.Docker.AssemblyInfo.cs
+D:\Workplaces\ContainersResearch\MyApp2\obj\Release\net6.0\MyDotNet.Docker.csproj.CoreCompileInputs.cache
+D:\Workplaces\ContainersResearch\MyApp2\obj\Release\net6.0\MyDotNet.Docker.dll
+D:\Workplaces\ContainersResearch\MyApp2\obj\Release\net6.0\refint\MyDotNet.Docker.dll
+D:\Workplaces\ContainersResearch\MyApp2\obj\Release\net6.0\MyDotNet.Docker.pdb
+D:\Workplaces\ContainersResearch\MyApp2\obj\Release\net6.0\MyDotNet.Docker.genruntimeconfig.cache
+D:\Workplaces\ContainersResearch\MyApp2\obj\Release\net6.0\ref\MyDotNet.Docker.dll

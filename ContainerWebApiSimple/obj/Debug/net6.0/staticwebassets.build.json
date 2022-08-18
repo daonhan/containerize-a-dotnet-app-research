@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BQz4vc8ilV9uEZVouc85Dd1ajAEI9JpZfCaMuBWg1JY=",
+  "Source": "ContainerWebApiSimple",
+  "BasePath": "_content/ContainerWebApiSimple",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
