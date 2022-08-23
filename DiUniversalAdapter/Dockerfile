@@ -9,21 +9,16 @@ WORKDIR /
 COPY ["./DiUniversalAdapter Service","./"]
 COPY Wait-Service.ps1 ./
 
-#RUN "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/InstallUtil.exe" /LogToConsole=true /ShowCallStack C:/DiUniversalAdapter.Running.WSHost.exe; \
-#Set-Service -Name "DiUniversalAdapterWindowsService" -StartupType Automatic; \
-#Set-ItemProperty "\"Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DiUniversalAdapterWindowsService\"" -Name AllowRemoteConnection -Value 1
-#install service using powershell or installutil.exe 
 RUN "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/installutil.exe" /LogToConsole=true /ShowCallStack C:/DiUniversalAdapter.Running.WSHost.exe;
 
 ENTRYPOINT ["powershell"]
 CMD C:\Wait-Service.ps1 -ServiceName 'DiUniversalAdapterWindowsService' -AllowServiceRestart
-# CMD Start-Service DiUniversalAdapterWindowsService; 
-CMD Get-EventLog -LogName System -After (Get-Date).AddHours(-1) | Format-List ;\
-  $idx = (get-eventlog -LogName System -Newest 1).Index; \
-  while ($true) \
-  {; \
-  start-sleep -Seconds 1; \
-  $idx2  = (Get-EventLog -LogName System -newest 1).index; \
-  get-eventlog -logname system -newest ($idx2 - $idx) |  sort index | Format-List; \
-  $idx = $idx2; \
-  }
+#CMD Get-EventLog -LogName System -After (Get-Date).AddHours(-1) | Format-List ;\
+#  $idx = (get-eventlog -LogName System -Newest 1).Index; \
+#  while ($true) \
+#  {; \
+#  start-sleep -Seconds 1; \
+#  $idx2  = (Get-EventLog -LogName System -newest 1).index; \
+#  get-eventlog -logname system -newest ($idx2 - $idx) |  sort index | Format-List; \
+#  $idx = $idx2; \
+#  }
